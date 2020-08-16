@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: green;
+    color: #fff;
+}
+header {
+    height: 25vh;
+}
+main {
+    min-height:70vh;
+}
+footer {
+    height: 5vh;
+}
+.image-wrap {
+    border-radius: 50%;
+}
