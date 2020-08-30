@@ -8,13 +8,13 @@ body {
     color: #fff;
 }
 header {
-    height: 35vh;
+    height: 45vh;
 }
 main {
-    min-height:60vh;
+    min-height:45vh;
 }
 footer {
-    height: 5vh;
+    height: 10vh;
 }
 .image-wrap {
     border-radius: 50%;
