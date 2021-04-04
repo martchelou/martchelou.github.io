@@ -1,20 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
 html {
     scroll-behavior: smooth;
 }
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    background:darkgreen;
-    color: #fff;
+    background:lightgreen;
+    color: darkgreen;
+    text-align: center;
 }
 header {
-    height: 45vh;
+    padding-top: 3em;
+    height: 25vh;
 }
-main {
-    min-height:45vh;
+main {    
+    min-height:70vh;
+}
+nav {
+    padding: 1em;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    text-align: center;
+    padding: .3em .6em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+nav > .btn {   
+    display: block;
+}
+.sr-only {
+    display: none;
+}
+.github {
+    color: white;
+    background-color: #24292e;
+}
+.twitter {
+    color: white;
+    background-color: #1da1f2;
+    
+}
+.linkedin {
+    color:white;
+    background-color: #0a66c2;
 }
 footer {
-    height: 10vh;
+    width: 100%;    
+    color: whitesmoke;
+    background-color: darkgreen;
+    line-height: 5vh;
 }
 .image-wrap {
     border-radius: 50%;
