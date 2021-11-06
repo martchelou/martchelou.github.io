@@ -4,15 +4,17 @@ html {
 }
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    background:var(--main-bg);
+    background-color: var(--footer-bg);
     color: var(--main-color);
     text-align: center;
 }
 header {
-    height: 35vh;
+    height: 40vh;
+    background:var(--main-bg);
 }
 main {
-    min-height:60vh;
+    min-height:50vh;
+    background:var(--main-bg);
 }
 nav {
     padding: 1em;
@@ -32,9 +34,8 @@ nav {
 }
 footer {
     width: 100%;
-    color: var(--main-color);
-    background-color: var(--footer-bg);
-    line-height: 5vh;
+    color: var(--main-color);    
+    min-height: 10vh;
 }
 
 .sr-only {
