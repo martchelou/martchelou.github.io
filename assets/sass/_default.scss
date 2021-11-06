@@ -1,0 +1,45 @@
+// Defaults
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background:var(--main-bg);
+    color: var(--main-color);
+    text-align: center;
+}
+header {
+    height: 35vh;
+}
+main {
+    min-height:60vh;
+}
+nav {
+    padding: 1em;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .btn {
+        text-align: center;
+        padding: .6em .6em .3em .6em;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    nav > .btn {
+        display: block;
+    }
+}
+footer {
+    width: 100%;
+    color: var(--main-color);
+    background-color: var(--footer-bg);
+    line-height: 5vh;
+}
+
+.sr-only {
+    display: none;
+}
+.image-wrap {
+    border-radius: 50%;
+}
