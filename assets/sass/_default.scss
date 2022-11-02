@@ -3,39 +3,44 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    background-color: var(--footer-bg);
-    color: var(--main-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: sans-serif;
+    color: #fff;
+    background:var(--main-bg);
     text-align: center;
 }
 header {
-    height: 30vh;
-    background:var(--main-bg);
+    padding: 5rem 0 0 0;
 }
 main {
-    min-height:60vh;
-    background:var(--main-bg);
-}
-nav {
-    padding: 1em;
-    overflow: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    .btn {
-        text-align: center;
-        padding: .6em .6em .3em .6em;
-        text-decoration: none;
-        border-radius: 5px;
-    }
-    nav > .btn {
-        display: block;
+    nav {
+        padding: 1em;
+        overflow: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .btn {
+            text-align: center;
+            padding: .6em .6em .3em .6em;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        nav > .btn {
+            display: block;
+        }
     }
 }
 footer {
+    padding: 1rem 0;
     width: 100%;
     color: var(--main-color);    
-    min-height: 10vh;
+    background-color: var(--footer-bg);
+    p {
+        margin:0;
+    }
 }
 
 .sr-only {
