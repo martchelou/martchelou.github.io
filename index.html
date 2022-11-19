@@ -12,20 +12,28 @@
     <meta name="keywords" content="code, game, games, web development">
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" type="image/sgv" href="favicon.svg">
     <title>Martchelou</title>
 </head>
 
 <body>
     <header class="flex">
-        <h1><img src="https://www.gravatar.com/avatar/400b59fa44c1be8310f7dcc51ae80bd7?s=150" alt="Martchelou.net"
-                class="image-wrap"></h1>
-        <p class="lead text-center">Live and let to code</p>
+        <figure>
+            <img 
+                src="https://pbs.twimg.com/profile_images/1263287974638297088/9AVQTv3-_400x400.jpg" 
+                width="400" height="400"
+                alt="Martchelou.net"
+                class="image-wrap">
+        </figure>
+        <figcaption class="lead text-center">Live and let to code</figcaption>
     </header>
     <main>
-        <h1>Marcelo de Miranda</h1>
-        <p><small>@martchelou</small><br>Web developer</p>
+        <section>
+            <h1>Marcelo de Miranda</h1>
+            <p><small>@martchelou</small><br>Web developer</p>
+        </section>
         <nav>
-            <a class="twitter btn" href="https://twitter.com/martchelou">
+            <a class="btn twitter" href="https://twitter.com/martchelou">
                 <span class="svg">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                         viewBox="0 0 16 16">
@@ -35,7 +43,7 @@
                 </span>
                 <span class="sr-only">Twitter</span>
             </a>
-            <a class="github btn" href="https://github.com/martchelou">
+            <a class="btn github" href="https://github.com/martchelou">
                 <span class="svg">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                         viewBox="0 0 16 16">
@@ -45,7 +53,7 @@
                 </span>
                 <span class="sr-only">Github</span>
             </a>
-            <a class="linkedin btn" href="http://br.linkedin.com/in/martchelou">
+            <a class="btn linkedin" href="http://br.linkedin.com/in/martchelou">
                 <span class="svg">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                         viewBox="0 0 16 16">
@@ -55,29 +63,22 @@
                 </span>
                 <span class="sr-only">Linkedin</span>
             </a>
-            <a href="https://codepen.io/martchelou" class="codepen btn">
+            <a class="btn codepen" href="https://codepen.io/martchelou">
                 <span class="svg">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                         class="bi bi-code-slash" viewBox="0 0 16 16">
                         <path
                             d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294l4-13zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z" />
-                    </svg>
+                        </svg>
                 </span>
+                <span class="sr-only">CodePen</span>
             </a>
         </nav>
     </main>
     <footer class="flex">
-        <p>&copy;&nbsp;Since yesterday | All rights reserved.</p>
+        <div class="container">
+            <p>&copy;&nbsp;Since yesterday | All rights reserved.</p>
+        </div>
     </footer>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-124424-12"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-124424-12');
-    </script>
 </body>
-
 </html>

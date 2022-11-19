@@ -1,4 +1,6 @@
-// Defaults
+/*
+ * Defaults
+ */
 html {
     scroll-behavior: smooth;
 }
@@ -8,8 +10,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     font-family: sans-serif;
-    color: #fff;
-    background:var(--main-bg);
+    color: var(--text);
+    background-color:var(--dark);
     text-align: center;
 }
 header {
@@ -34,18 +36,23 @@ main {
     }
 }
 footer {
-    padding: 1rem 0;
     width: 100%;
-    color: var(--main-color);    
-    background-color: var(--footer-bg);
-    p {
-        margin:0;
+    color: var(--text);
+    background-color: var(--dark);
+    .container {
+        padding: 1rem 0;
+        border-top: 1px solid var(--light);   
+        p {
+            margin:0;
+        } 
     }
 }
-
 .sr-only {
-    display: none;
+    display: block;
+    width: 0; height: 0;
+    overflow: hidden;
 }
 .image-wrap {
     border-radius: 50%;
+    max-width: 60%;
 }

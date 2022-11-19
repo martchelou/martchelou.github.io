@@ -4,6 +4,18 @@ Page loading ...
 
 ## change log
 
+### 2022-11-19
+
+- color set to light to get good contrasts [teal 100](https://m2.material.io/resources/color/#!/?view.left=1&view.right=0&primary.color=B2DFDB)
+-  some code licking to push it up in performance - now with 100% on lighthouse
+- some strutucral tags to acessiblity
+- removed js from analitycs to speed up loading and no cookies
+- I changed source from picture to grow up resolution and try to get less ugly
+
+### 2022-11-02
+
+- change flex sistem and font for single page
+
 ### 2021-11-06
 
 - [Material design colors ui](https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=80CBC4) (teal for a while).
