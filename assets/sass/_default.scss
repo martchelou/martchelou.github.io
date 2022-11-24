@@ -5,10 +5,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    height: 100vh;
     font-family: sans-serif;
     color: var(--text);
     background-color:var(--dark);
@@ -18,6 +15,18 @@ header {
     padding: 5rem 0 0 0;
 }
 main {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    figure {
+        img {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+        }
+        margin: 0 2em;
+    }
     nav {
         padding: 1em;
         overflow: auto;
@@ -54,5 +63,5 @@ footer {
 }
 .image-wrap {
     border-radius: 50%;
-    max-width: 60%;
+    // max-width: 60%;
 }
