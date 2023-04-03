@@ -4,6 +4,10 @@ Page loading ...
 
 ## change log
 
+### 2023-04-23
+
+- games folder, a little index from tut's js from internet. All games are linked to its source.
+
 ### 2022-11-19
 
 - color set to light to get good contrasts [teal 100](https://m2.material.io/resources/color/#!/?view.left=1&view.right=0&primary.color=B2DFDB)
