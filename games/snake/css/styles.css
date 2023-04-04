@@ -1,0 +1,30 @@
+/* Snake game */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    height: 80dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+}
+a {
+    color: #333;
+    padding: 0 .5em;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {    
+    background-color: #ddd;
+}
+#stage {
+    border-radius: 7px;
+}
