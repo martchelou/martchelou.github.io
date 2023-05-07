@@ -1,0 +1,25 @@
+/*
+ * Layout
+ */
+body {
+    background-color: var(--green--50);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    figure {
+        border-radius: 50%;
+        overflow: hidden;
+        aspect-ratio: 1;
+    }
+
+    footer {
+        width: 100%;
+        text-align: center;
+        padding: 1rem 1rem 0 1rem;
+        color: var(--white);
+        background-color: var(--green--900);
+    }
+}
