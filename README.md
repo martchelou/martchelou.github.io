@@ -4,6 +4,10 @@ Page loading ...
 
 ## change log
 
+### 2023-05-07
+
+-- I started new layout inspired by trigonometry video from Kevin Powell in [YouTube](https://youtu.be/eO33Rh3GFGk)
+
 ### 2023-04-23
 
 - games folder, a little index from tut's js from internet. All games are linked to its source.

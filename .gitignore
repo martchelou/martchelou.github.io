@@ -106,3 +106,4 @@ dist
 # css map
 css/*.map
 package-lock.json
+.vscode
