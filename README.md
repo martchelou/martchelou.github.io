@@ -4,6 +4,11 @@ Page loading ...
 
 ## change log
 
+### 2024-07-26
+
+- change colors to black and grayscale
+- move bash command to assets/sass/index.scss (use it on terminal)
+
 ### 2023-04-23
 
 - games folder, a little index from tut's js from internet. All games are linked to its source.
@@ -11,7 +16,7 @@ Page loading ...
 ### 2022-11-19
 
 - color set to light to get good contrasts [teal 100](https://m2.material.io/resources/color/#!/?view.left=1&view.right=0&primary.color=B2DFDB)
--  some code licking to push it up in performance - now with 100% on lighthouse
+- some code licking to push it up in performance - now with 100% on lighthouse
 - some strutucral tags to acessiblity
 - removed js from analitycs to speed up loading and no cookies
 - I changed source from picture to grow up resolution and try to get less ugly
