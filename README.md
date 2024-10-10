@@ -4,6 +4,10 @@ Page loading ...
 
 ## change log
 
+### 2024-10-10
+
+- I've got back to bootstrap 5.3 loaded by cdn jsdelivr
+
 ### 2024-07-26
 
 - change colors to black and grayscale
@@ -29,6 +33,6 @@ Page loading ...
 
 - [Material design colors ui](https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=80CBC4) (teal for a while).
 - CSS to work with [SASS](https://sass-lang.com/install) preprocessor
-- SCSS files in assets folder
+- SCSS files in assets/sass folder
 - A bash file to work with sass on command line
 - [Bootstrap Icons svg](https://icons.getbootstrap.com/)
