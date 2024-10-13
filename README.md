@@ -4,6 +4,10 @@ Page loading ...
 
 ## change log
 
+### 2024-10-13
+
+- Changed button color to dark
+
 ### 2024-10-10
 
 - I've got back to bootstrap 5.3 loaded by cdn jsdelivr
