@@ -6,7 +6,7 @@ Page loading ...
 
 ### 2024-10-13
 
-- Changed button color to dark
+- Changed button color to dark and size icons
 
 ### 2024-10-10
 
